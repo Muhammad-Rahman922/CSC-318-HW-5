@@ -1,0 +1,53 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div:nth-child(3) {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div.removeQuote {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div.quoteList {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+ul.quotes {
+    list-style: none;
+    padding: 0;
+}
+
+li.quote {
+    margin-bottom: 10px;
+}
+
+.edit-button,
+.delete-button {
+    margin-left: 10px;
+}
+/* Light Mode styles */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Dark Mode styles */
+  body.dark-side {
+    background-color: #010100;
+    color: #f2f2f2;
+  }
